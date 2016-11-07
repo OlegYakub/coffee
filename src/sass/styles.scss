@@ -1,0 +1,26 @@
+﻿*{padding: 0; margin: 0; outline: none}
+ul{list-style-type: none}
+a{text-decoration: none; -webkit-transition: .35s;
+-moz-transition: .35s;
+-ms-transition: .35s;
+-o-transition: .35s;
+transition: .35s;}
+button{
+	-webkit-transition: .35s;
+	-moz-transition: .35s;
+	-ms-transition: .35s;
+	-o-transition: .35s;
+	transition: .35s;
+}
+html, body{font: 400 16px/1.1 'Open Sans', sans-serif}
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	position: relative;
+		&:after{
+			content: "";
+			clear: both;
+			display: block;
+		}
+}
