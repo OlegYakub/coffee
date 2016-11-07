@@ -5,22 +5,16 @@
 lessFiles = ['./src/less/*.less'];
 sassFiles = ['./src/sass/*.scss'];
 cssFiles = [
-  './src/css/*.css',
-  './node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css',
-  './node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css'
+  './src/css/*.css'
 ];
 jsFiles = [
   './node_modules/jquery/dist/jquery.min.js',
-  './node_modules/masonry-layout/dist/masonry.pkgd.min.js',
-  './node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js',
-  './node_modules/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js',
   './src/js/*.js'
 ];
 pugFiles = ['./src/*.pug'];
 htmlFiles = ['./src/*.html'];
 imgFiles = ['./src/img/*'];
 fontsFiles = [
-  './node_modules/font-awesome/fonts/*',
   './src/fonts/*'
 ];
 anotherFiles = ['./src/extra/**/*.*', './src/audio/*'];

@@ -24,3 +24,136 @@ html, body{font: 400 16px/1.1 'Open Sans', sans-serif}
 			display: block;
 		}
 }
+.osb18, .osb14{
+	font-size: 18px;
+	font-weight: 700;
+	padding: 28px 0;
+	text-align: center;
+	color: #333;
+	text-transform: uppercase;
+	margin: auto;
+}
+.osb14{
+	font-size: 14px;
+	font-weight: 700;
+	padding: 25px 0;
+}
+.os14{
+	font-size: 14px 'Open Sans';
+	padding: 25px 0;
+	color: #000;
+}
+.p_df{
+	display: flex;
+}
+.btn{
+	width: 210px;
+	height: 44px;
+	background: #ED1B23;
+	display: flex;
+	margin: auto;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+		span{
+			font-size: 13px;
+			font-weight: 700;
+			margin: auto;
+			color: #F0F0F0;
+			text-transform: uppercase;
+		}
+		&:hover{
+			background: #FF6167;
+		}
+}
+/* ===header=== */
+.header{
+	.container{
+		.logo{
+			padding: 25px 0;
+			.logo_item{
+				display: flex;
+				a{
+					margin: auto;
+					display: flex;
+						img{
+							margin: auto;
+						}
+				}
+			}
+			p{
+				margin-top: 15px;
+				text-align: center;
+				font-size: 16px;
+				color: #333;
+			}
+		}
+	}
+}
+
+/* ===main_1=== */
+.main_1{
+	background: url("../img/bac-top.png")no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  padding: 95px 0 80px;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+		.container{
+			.main_1_item{
+				max-width: 1030px;
+				margin: 0 auto;
+				// padding-left: 105px;
+				display: flex;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+					.main_1__{
+						width: 230px;
+							p{
+								height: 75px;
+									img{
+										margin: auto;
+									}
+							}
+					}
+			}
+			h4{
+				color: #333;
+				font-size: 56px;
+				font-weight: 700;
+				text-align: center;
+				padding: 50px 0 28px;
+			}
+			h5{
+				padding: 0 0 40px;
+				color: #333;
+				text-align: center;
+				font-size: 22px;
+				text-transform: uppercase;
+				font-weight: 400;
+					span{
+						font-size: 27px;
+						font-weight: 700;
+					}
+			}
+		}
+}
+/* ===main_2=== */
+.main_2{
+	padding: 60px 0;
+		.container{
+			.main_2_item{
+				display: flex;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+					.main_2__{
+							.p_df{
+								height: 60px;
+							}
+							img{
+								margin: auto;
+							}
+					}
+			}
+		}
+}
