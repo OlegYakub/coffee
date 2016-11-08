@@ -155,5 +155,32 @@ html, body{font: 400 16px/1.1 'Open Sans', sans-serif}
 							}
 					}
 			}
+			.main_2_item__{
+				display: flex;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+					.item_2{
+						width: 370px;
+							.item_2_left{
+								img{
+									margin: auto 0;
+								}
+							}
+							.item_2_right{
+								margin-left: 20px;
+									.link_2_right{
+										margin: auto 0;
+											.osb14{
+												padding: 0 0 13px;
+												text-align: left;
+											}
+											h4{
+												font-size: 14px;
+												color: #000;
+											}
+									}
+							}
+					}
+			}
 		}
 }
