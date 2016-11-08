@@ -184,3 +184,45 @@ html, body{font: 400 16px/1.1 'Open Sans', sans-serif}
 			}
 		}
 }
+
+/* ===main_10=== */
+.main_10{
+	padding: 80px 0;
+
+}
+
+.title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+	text-transform: uppercase;	
+	.title__item{
+		position: relative;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #cccccc;
+		&:after{
+			content:"";
+			position: absolute;
+			border-bottom: 1px solid #ed1b23; 
+			width: 88px;
+			height: 1px;
+			left: 0px;
+			bottom: -1px;
+		}
+
+		&:before{
+			content:"";
+			position: absolute;
+			background-color: #ed1b23; 
+			border-radius:4px;
+			width: 8px;
+			height: 8px;
+			left: 0px;
+			bottom: -4px;
+		}
+	}
+	.title--red{
+		color: #ed1b23;
+	}
+}
