@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Coffee</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:400,700 -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -329,19 +331,21 @@
 					<h5>рассчета потребления кофе на месяц</h5>
 					<h6>Укажите количество сотрудников</h6>
 					<div class="runner p_df">
-						<div class="runner_item">
-							<span>115</span>
+						<div class="runner_item p_df">
+							<input type="text" id="maxCost" value="115" class="inp__val" />
+							<div id="slider"></div>
+							<input type="text" id="maxCost" class="inp_right" value="115" />
 						</div>
-						<input type="text"></input>
 					</div>
 					<h6>Сколько чашек в день выпивает 1 сотрудник</h6>
 					<div class="runner p_df">
-						<div class="runner_item">
-							<span>11.5</span>
+						<div class="runner_item p_df">
+							<input type="text" id="maxCost_cup" value="5" class="inp__val" />
+							<div id="slider_cup"></div>
+							<input type="text" id="maxCost_cup" class="inp_right" value="5" />
 						</div>
-						<input type="text"></input>
 					</div>
-					<p class="os14">Вам необходимо: <span class="osb14">300 кг кофе/</span><span class="osb14">мес</span></p>
+					<p class="os14">Вам необходимо: <span class="osb14">300</span> <span class="osb14">кг кофе/</span><span class="osb14">мес</span></p>
 					<a href="#" class="btn"><span>отправить заявку</span></a>
 				</div>
 			</div>
@@ -456,5 +460,9 @@
 		</div>
 		<div class="footer"></div>
 	</div>
+
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
