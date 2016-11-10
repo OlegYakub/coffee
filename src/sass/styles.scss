@@ -715,11 +715,10 @@ html, body{font: 400 16px/1.1 'Open Sans', sans-serif}
 	}
 }
 
+/* ===main_10=== */
 .main_11{
 	background: url("../img/bac-top.png")no-repeat;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	
 	padding: 75px 0;
 	form{
 		width: 370px;
@@ -759,8 +758,50 @@ html, body{font: 400 16px/1.1 'Open Sans', sans-serif}
 
 }
 
+/* ===footer=== */
 
+.footer{
+	background: url("../img/footer-bg-w.png") no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	.contact{
+		padding: 75px 0;
+		border-bottom: 1px solid #ccc;
+		display: flex;
+		display: -webkit-flex;
+	}
 
+	.contact__item{
+		text-align: center;
+		width: 25%;
+		padding: 0 25px;
+		position: relative;
+		&:not(:last-child):after{
+			content:"";
+			position: absolute;
+			height: 156px;
+			border-right: 1px solid #ccc;
+			right: -15px;
+			top: 40px;
+		}
+	}
 
+	.contact__address{
+		font-size: 14px;
+		line-height: 1.2;
+	}
 
+	.contact__tel{
+		margin-top: 25px;
+		font-size: 14px;
+		line-height: 1.2;
+	}
+
+	.copy-right{
+		font-size: 14px;
+  		line-height: 1.2;
+  		padding: 25px 0;
+	}
+}
 
